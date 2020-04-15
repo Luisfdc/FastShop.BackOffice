@@ -1,0 +1,5 @@
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\FastShop.BackOffice.Repository\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\FastShop.BackOffice.Repository\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\FastShop.BackOffice.Repository\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\FastShop.BackOffice.Repository\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\FastShop.BackOffice.Repository\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.AssemblyInfo.cs

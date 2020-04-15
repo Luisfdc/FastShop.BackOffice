@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj",
+        "projectName": "FastShop.BackOffice.Domain",
+        "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj",
+        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
+        "projectName": "FastShop.BackOffice.Repository",
+        "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
+        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj": {
+                "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
