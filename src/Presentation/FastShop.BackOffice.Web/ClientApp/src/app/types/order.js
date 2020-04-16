@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Order = /** @class */ (function () {
     function Order() {
-        this.title = 'ClientApp';
     }
     return Order;
 }());

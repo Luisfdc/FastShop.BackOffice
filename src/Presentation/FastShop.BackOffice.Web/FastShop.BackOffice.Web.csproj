@@ -30,7 +30,8 @@
     <None Remove="ClientApp\src\app\components\client\client.module.ts" />
     <None Remove="ClientApp\src\app\components\order\order-routing.module.ts" />
     <None Remove="ClientApp\src\app\components\order\order.module.ts" />
-    <None Remove="ClientApp\src\app\types\Order.ts" />
+    <None Remove="ClientApp\src\app\types\order.js" />
+    <None Remove="ClientApp\src\app\types\order.ts" />
   </ItemGroup>
 
   <ItemGroup>
