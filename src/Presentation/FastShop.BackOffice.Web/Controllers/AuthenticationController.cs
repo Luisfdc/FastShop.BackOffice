@@ -12,7 +12,8 @@ namespace EmployeesManager.Controllers
     public class AuthenticationController : ControllerBase
     {
         [HttpGet("[action]")]
-        public object GetUser() {
+        public object GetUser() 
+        {
             return new { Nome = User.Identity.Name.Split('\\')[1].ToUpper() };
         }
     }

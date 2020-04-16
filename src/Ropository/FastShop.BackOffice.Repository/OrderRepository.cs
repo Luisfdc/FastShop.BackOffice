@@ -25,11 +25,11 @@ namespace FastShop.BackOffice.Repository
             }
         }
 
-        public List<Order> List()
+        public List<Order> List(int clientId)
         {
             using (var db = new DbContextFactory().CreateDbContext(args))
             {
-                return db.Order.ToList();
+                return db.Order.Where(x => x.ClientId == clientId).ToList();
 
             }
         }

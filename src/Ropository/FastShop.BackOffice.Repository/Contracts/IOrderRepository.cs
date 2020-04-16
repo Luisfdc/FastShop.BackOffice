@@ -7,7 +7,7 @@ namespace FastShop.BackOffice.Repository.Contracts
 {
     public interface IOrderRepository
     {
-        List<Order> List();
+        List<Order> List(int clientId);
         Order Get(int orderId);
 
         void UpdateStatus(Order order);

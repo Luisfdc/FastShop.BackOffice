@@ -6,15 +6,16 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
 export class HeaderComponent implements OnInit {
   public userName: string;
   constructor(private authenticationService: AuthenticationService) {
-
+    
   }
 
   ngOnInit() {
     this.authenticationService.getUser().subscribe(result => {
-      this.userName = result.name;
+      this.userName = result.nome;
     });
   }
 }

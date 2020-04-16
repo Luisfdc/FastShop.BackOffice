@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { AuthenticationService } from './services/authentication.service';
+import { OrderComponent } from './components/order/order.component';
+import { ClientComponent } from './components/client/client.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AuthenticationService } from './services/authentication.service';
     HeaderComponent,
     FooterComponent,
     SettingsComponent,
-    MenuComponent
+    MenuComponent,
+    OrderComponent,
+    ClientComponent
   ],
   imports: [
     BrowserModule,

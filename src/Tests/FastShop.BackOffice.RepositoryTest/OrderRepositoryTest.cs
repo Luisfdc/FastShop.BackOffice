@@ -19,7 +19,7 @@ namespace Tests
         [Test]
         public void List_Order_Test()
         {
-            var clients = _orderRep.List();
+            var clients = _orderRep.List(1);
 
             Assert.IsNotNull(clients);
         }

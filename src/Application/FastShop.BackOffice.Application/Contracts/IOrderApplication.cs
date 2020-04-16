@@ -7,7 +7,7 @@ namespace FastShop.BackOffice.Application.Contracts
 {
     public interface IOrderApplication
     {
-        List<Order> List();
+        List<Order> List(int clientId);
         Order Get(int orderId);
 
         void UpdateStatus(Order order);
