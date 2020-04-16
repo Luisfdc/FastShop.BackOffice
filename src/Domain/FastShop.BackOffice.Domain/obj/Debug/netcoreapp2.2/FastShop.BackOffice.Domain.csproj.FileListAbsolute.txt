@@ -1,0 +1,9 @@
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.deps.json
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.pdb
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.AssemblyInfo.cs
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Domain\FastShop.BackOffice.Domain\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.pdb

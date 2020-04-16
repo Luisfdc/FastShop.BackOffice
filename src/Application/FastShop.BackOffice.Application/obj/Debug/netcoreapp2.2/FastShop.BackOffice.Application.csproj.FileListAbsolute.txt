@@ -1,0 +1,14 @@
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Application.deps.json
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Application.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Application.pdb
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.pdb
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.pdb
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.AssemblyInfo.cs
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.csproj.CopyComplete
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.dll
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Application\FastShop.BackOffice.Application\obj\Debug\netcoreapp2.2\FastShop.BackOffice.Application.pdb

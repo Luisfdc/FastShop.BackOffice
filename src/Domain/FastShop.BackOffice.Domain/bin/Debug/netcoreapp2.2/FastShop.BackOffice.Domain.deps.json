@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "FastShop.BackOffice.Domain/1.0.0": {
+        "runtime": {
+          "FastShop.BackOffice.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FastShop.BackOffice.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
