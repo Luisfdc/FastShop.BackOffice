@@ -1,0 +1,29 @@
+
+<div class="box" *ngIf="orders">
+  <div class="box-header with-border">
+    <h3 class="box-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedidos</font></font></h3>
+  </div>
+  <!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <th style="width: 10px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#</font></font></th>
+          <th><font style="vertical-align: inherit;">Cliente</font></th>
+          <th><font style="vertical-align: inherit;">Data Criação</font></th>
+          <th><font style="vertical-align: inherit;">Data Atualização</font></th>
+          <th><font style="vertical-align: inherit;">Valor Total</font></th>
+          <th><font style="vertical-align: inherit;">Status</font></th>
+        </tr>
+        <tr *ngFor="let order of orders">
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.id}}</font></a></td>
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.client.name}}</font></a></td>
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.createAt | date:'dd/MM/yyyy' }}</font></a></td>
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.updateAt | date: 'dd/MM/yyyy' }}</font></a></td>
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.amount | currency: 'BRL':true:'1.2-2' }}</font></a></td>
+          <td><a href="#" [routerLink]="['/order/',order.id]"><font style="vertical-align: inherit;">{{order.status == 1? 'Novo':order.status == 2? 'Pago': 'Finalizado'}}</font></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

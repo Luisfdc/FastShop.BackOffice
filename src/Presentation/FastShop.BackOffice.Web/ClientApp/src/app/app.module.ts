@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -11,6 +12,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { AuthenticationService } from './services/authentication.service';
 import { OrderComponent } from './components/order/order.component';
 import { ClientComponent } from './components/client/client.component';
+import { OrderListComponent } from './components/order-list/order-list.component';
+import { OrderItemComponent } from './components/order-item/order-item.component';
 
 @NgModule({
   declarations: [
@@ -20,15 +23,19 @@ import { ClientComponent } from './components/client/client.component';
     SettingsComponent,
     MenuComponent,
     OrderComponent,
-    ClientComponent
+    ClientComponent,
+    OrderListComponent,
+    OrderItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
-    AuthenticationService
+    AuthenticationService,
+    ClientComponent
   ],
   bootstrap: [AppComponent]
 })

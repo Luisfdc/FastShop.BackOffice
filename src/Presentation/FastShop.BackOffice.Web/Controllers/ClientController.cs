@@ -21,8 +21,8 @@ namespace FastShop.BackOffice.Web.Controllers
         }
 
 
-        [HttpGet("[action]")]
-        public Client GetClient([FromRoute] string cpf)
+        [HttpGet,Route("{cpf}")]
+        public async Task<ActionResult<Client>> GetClient(string cpf)
         {
             return _clientApplication.Get(cpf);
         }

@@ -5,6 +5,7 @@ import { OrderComponent } from './order.component';
 @NgModule({
   imports: [
     RouterModule.forChild([
+      { path: 'order/:id', component: OrderComponent },
       { path: 'order', component: OrderComponent }
     ])
   ],

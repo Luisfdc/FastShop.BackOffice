@@ -1,0 +1,25 @@
+
+<div class="box" *ngIf="orderItems">
+  <div class="box-header with-border">
+    <h3 class="box-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Items</font></font></h3>
+  </div>
+  <!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <th><font style="vertical-align: inherit;">Produto</font></th>
+          <th><font style="vertical-align: inherit;">Valor Unit</font></th>
+          <th><font style="vertical-align: inherit;">Quantidade</font></th>
+          <th><font style="vertical-align: inherit;">Valor Total</font></th>
+        </tr>
+        <tr *ngFor="let orderItem of orderItems">
+          <td><font style="vertical-align: inherit;">{{orderItem.product.description}}</font></td>
+          <td><font style="vertical-align: inherit;">{{orderItem.product.price | currency: 'BRL':true:'1.2-2'}}</font></td>
+          <td><font style="vertical-align: inherit;">{{orderItem.qtd}}</font></td>
+          <td><font style="vertical-align: inherit;">{{(orderItem.product.price * orderItem.qtd) | currency: 'BRL':true:'1.2-2'}}</font></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

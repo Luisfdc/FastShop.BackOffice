@@ -21,8 +21,8 @@ namespace FastShop.BackOffice.Web.Controllers
         }
 
 
-        [HttpGet("[action]")]
-        public List<OrderItem> ListOrderItem([FromRoute] int orderId)
+        [HttpGet, Route("{orderId}")]
+        public async Task<ActionResult<List<OrderItem>>> ListOrderItem(int orderId)
         {
             return _orderItemApplication.List(orderId);
         }

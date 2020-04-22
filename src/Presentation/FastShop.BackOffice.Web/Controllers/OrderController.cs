@@ -21,21 +21,21 @@ namespace FastShop.BackOffice.Web.Controllers
         }
 
 
-        [HttpGet("[action]")]
-        public Order GetOrder([FromRoute] int orderId)
+        [HttpGet, Route("{orderId}")]
+        public async Task<ActionResult<Order>> GetOrder(int orderId)
         {
             return _orderApplication.Get(orderId);
         }
 
 
-        [HttpGet("[action]")]
-        public List<Order> ListOrder([FromRoute] int clientId)
+        [HttpGet, Route("{clientId}/Client")]
+        public async Task<ActionResult<List<Order>>> ListOrder(int clientId)
         {
             return _orderApplication.List(clientId);
         }
 
-        [HttpPost("[action]")]
-        public bool UpdateStatus([FromBody] Order order)
+        [HttpPost, Route("UpdateStatus")]
+        public async Task<ActionResult<bool>> UpdateStatus(Order order)
         {
              _orderApplication.UpdateStatus(order);
 

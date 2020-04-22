@@ -1,1 +1,60 @@
-<p>order works!</p>
+
+<div class="box" *ngIf="!param">
+  <div class="box-header">
+    <h3 class="box-title">Buscar Pedido</h3>
+  </div>
+  <div class="box-body">
+    <p>Número do Pedido</p>
+
+    <div class="input-group margin">
+      <input placeholder="Digite o número do pedido" type="text" class="form-control" [(ngModel)]="orderId">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-info btn-flat" (click)="getOrder()">Buscar</button>
+      </span>
+    </div>
+    <!-- /input-group -->
+  </div>
+  <!-- /.box-body -->
+</div>
+
+<div class="box" *ngIf="order">
+  <div class="col-md-6">
+    <div class="box box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Pedido</h3>
+      </div>
+      <!-- /.box-header -->
+      <div class="box-body">
+        <dl class="dl-horizontal">
+          <dt>Número:&nbsp;</dt>
+          <dd>{{order.id}}</dd>
+          <dt>Cliente:&nbsp;</dt>
+          <dd>{{order.client.name}}</dd>
+          <dt>Data Criação:&nbsp;</dt>
+          <dd>{{order.createAt | date:'dd/MM/yyyy' }}</dd>
+          <dt>Data Atualização:&nbsp;</dt>
+          <dd>{{order.updateAt | date: 'dd/MM/yyyy' }}</dd>
+          <dt>Valor Total:&nbsp;</dt>
+          <dd>{{order.amount | currency: 'BRL':true:'1.2-2' }}</dd>
+          <dt>Status:&nbsp;</dt>
+          <dd>{{order.status == 1? 'Novo':order.status == 2? 'Pago': 'Finalizado'}}</dd>
+        </dl>
+
+        <span class="input-group-btn">
+          <button type="button" *ngIf="order.status < 2" class="btn btn-info btn-flat" (click)="updateStatus(2)">Pagar</button>
+        </span>
+        <span class="input-group-btn">
+          <button type="button" *ngIf="order.status < 3" class="btn btn-success btn-flat" (click)="updateStatus(3)">Finalizar</button>
+        </span>
+      </div>
+      <!-- /.box-body -->
+    </div>
+    <!-- /.box -->
+  </div>
+
+</div>
+
+
+<div>
+  <app-order-item></app-order-item>
+</div>

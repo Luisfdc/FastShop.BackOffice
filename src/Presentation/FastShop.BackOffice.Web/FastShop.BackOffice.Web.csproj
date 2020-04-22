@@ -26,12 +26,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="ClientApp\src\app\components\client\client-routing.module.ts" />
     <None Remove="ClientApp\src\app\components\client\client.module.ts" />
     <None Remove="ClientApp\src\app\components\order\order-routing.module.ts" />
     <None Remove="ClientApp\src\app\components\order\order.module.ts" />
+    <None Remove="ClientApp\src\app\types\client.ts" />
     <None Remove="ClientApp\src\app\types\order.js" />
     <None Remove="ClientApp\src\app\types\order.ts" />
+    <None Remove="ClientApp\src\app\types\OrderItem.ts" />
+    <None Remove="ClientApp\src\app\types\Product.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,7 +59,10 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="ClientApp\src\app\components\order\order-routing.module.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\components\order\order.module.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\types\client.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\types\order.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\types\orderItem.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\types\product.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

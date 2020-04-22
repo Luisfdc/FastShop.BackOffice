@@ -1,6 +1,7 @@
 ﻿using FastShop.BackOffice.Domain.Entities;
 using FastShop.BackOffice.Repository.Contracts;
 using FastShop.BackOffice.Repository.Factory;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,8 +21,12 @@ namespace FastShop.BackOffice.Repository
         {
             using (var db = new DbContextFactory().CreateDbContext(args))
             {
-                return db.Order.FirstOrDefault(x => x.Id == orderId);
+                var order = db.Order.Include(x => x.Client).FirstOrDefault(x => x.Id == orderId);
 
+                if (order != null)
+                    order.Items = db.OrderItem.Where(item => item.OrderId == orderId).Include(y => y.Product).ToList();
+
+                return order;
             }
         }
 
@@ -29,8 +34,12 @@ namespace FastShop.BackOffice.Repository
         {
             using (var db = new DbContextFactory().CreateDbContext(args))
             {
-                return db.Order.Where(x => x.ClientId == clientId).ToList();
+                var orders = db.Order.Where(x => x.ClientId == clientId).Include(x => x.Client).ToList();
 
+                if (orders != null)
+                    orders.ForEach(x => x.Items = db.OrderItem.Where(item => item.OrderId == x.Id).Include(y => y.Product).ToList());
+
+                return orders;
             }
         }
 
@@ -41,6 +50,8 @@ namespace FastShop.BackOffice.Repository
                 var entity = db.Order.FirstOrDefault(item => item.Id == order.Id);
 
                 entity.Status = order.Status;
+                order.UpdateAt = DateTime.Now;
+                entity.UpdateAt = DateTime.Now;
 
                 db.Order.Update(entity);
 
