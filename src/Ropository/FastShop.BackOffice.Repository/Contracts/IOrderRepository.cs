@@ -10,7 +10,7 @@ namespace FastShop.BackOffice.Repository.Contracts
         List<Order> List(int clientId);
         Order Get(int orderId);
 
-        void UpdateStatus(Order order);
+        int UpdateStatus(Order order);
 
     }
 }

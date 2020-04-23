@@ -23,9 +23,9 @@ namespace FastShop.BackOffice.Application
             return _orderRepository.List(clientId);
         }
 
-        public void UpdateStatus(Order order)
+        public int UpdateStatus(Order order)
         {
-            _orderRepository.UpdateStatus(order);
+            return _orderRepository.UpdateStatus(order);
         }
     }
 }

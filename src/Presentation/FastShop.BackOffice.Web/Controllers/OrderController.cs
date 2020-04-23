@@ -35,11 +35,10 @@ namespace FastShop.BackOffice.Web.Controllers
         }
 
         [HttpPost, Route("UpdateStatus")]
-        public async Task<ActionResult<bool>> UpdateStatus(Order order)
+        public async Task<ActionResult<int>> UpdateStatus(Order order)
         {
-             _orderApplication.UpdateStatus(order);
+            return _orderApplication.UpdateStatus(order);
 
-            return true;
         }
         
     }

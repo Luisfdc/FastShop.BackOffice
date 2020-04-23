@@ -43,7 +43,7 @@ namespace FastShop.BackOffice.Repository
             }
         }
 
-        public void UpdateStatus(Order order)
+        public int UpdateStatus(Order order)
         {
             using (var db = new DbContextFactory().CreateDbContext(args))
             {
@@ -55,8 +55,7 @@ namespace FastShop.BackOffice.Repository
 
                 db.Order.Update(entity);
 
-                db.SaveChanges();
-
+                return db.SaveChanges();
             }
         }
     }
