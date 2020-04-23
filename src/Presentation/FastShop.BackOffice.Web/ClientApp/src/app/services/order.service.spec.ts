@@ -8,11 +8,15 @@ describe('OrderService', () => {
   let service: OrderService;
   let handler: HttpHandler;
   let http: HttpClient;
+  let order: Order;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
     http = new HttpClient(handler);
-    service = new OrderService(http)
+    service = new OrderService(http);
+    order = new Order();
+    order.id = 1;
+    order.status = 1;
   });
 
   it('should be created', () => {
@@ -32,12 +36,8 @@ describe('OrderService', () => {
   });
 
   it('test updateStatus', () => {
-    let order = new Order();
-    order.id = 1;
-    order.status = 1;
-
     service.updateStatus(order).subscribe(result => {
-      expect(result).toBeTrue();
+      expect(result).toEqual(1);
     });
   });
 });
