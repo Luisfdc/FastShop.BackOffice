@@ -1,4 +1,16 @@
 # FastShop.BackOffice
+# Execução de testes
+**Visual Studio**
+
+>>Abrir solução e acessar o menu Test > Run > All Tests
+
+**Terminal**
+
+>>Navegar até a pasta da solution e executar o comando dotnet test
+
+**Angular**
+
+>>Navegar até a pasta FastShop.BackOffice.Web/ClientApp e executar o comando ng test
 
 # Execução aplicação
 
