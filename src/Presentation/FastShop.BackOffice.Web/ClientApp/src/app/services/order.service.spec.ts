@@ -7,9 +7,13 @@ import { Observable } from 'rxjs';
 describe('OrderService', () => {
   let service: OrderService;
   let http: any;
+  let order: Order;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
+    order = new Order();
+    order.id = 1;
+    order.status = 1;
 
     http = {
       get: jasmine.createSpy('get').and.returnValue(Observable.create(Order)),
