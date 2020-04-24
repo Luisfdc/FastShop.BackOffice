@@ -1,16 +1,18 @@
 import { TestBed } from '@angular/core/testing';
 
 import { OrderItemService } from './order-item.service';
-import { HttpClient, HttpHandler } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { OrderItem } from '../types/OrderItem';
 
 describe('OrderItemService', () => {
   let service: OrderItemService;
-  let handler: HttpHandler;
-  let http: HttpClient;
+  let http: any;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    http = new HttpClient(handler);
+    http = {
+      get: jasmine.createSpy('get').and.returnValue(Observable.create(OrderItem))
+    };
     service = new OrderItemService(http)
   });
 

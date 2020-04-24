@@ -12,10 +12,10 @@ C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Repository.pdb
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\bin\Debug\netcoreapp2.2\FastShop.BackOffice.Domain.pdb
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.csprojAssemblyReference.cache
-C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.csproj.CoreCompileInputs.cache
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.AssemblyInfoInputs.cache
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.AssemblyInfo.cs
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.csproj.CopyComplete
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.dll
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.pdb
 C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.genruntimeconfig.cache
+C:\Users\camil\Google Drive\TesteFastShop\FastShop.BackOffice\src\Tests\FastShop.BackOffice.RepositoryTest\obj\Debug\netcoreapp2.2\FastShop.BackOffice.RepositoryTest.csproj.CoreCompileInputs.cache

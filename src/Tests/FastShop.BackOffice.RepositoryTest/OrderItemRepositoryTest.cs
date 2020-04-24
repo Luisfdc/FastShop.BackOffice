@@ -1,6 +1,9 @@
+using FastShop.BackOffice.Domain.Entities;
 using FastShop.BackOffice.Repository;
 using FastShop.BackOffice.Repository.Contracts;
+using NSubstitute;
 using NUnit.Framework;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Tests
@@ -12,7 +15,19 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            _orderItemRep = new OrderItemRepository();
+            var mock = Substitute.For<IOrderItemRepository>();
+
+            var orderItems = new List<OrderItem> {
+                new OrderItem { Id = 1, OrderId = 1, ProductId = 1 }
+            };
+
+            mock.List(1)
+                .Returns(orderItems);
+
+            mock.List(0)
+                .Returns(new List<OrderItem>());
+
+            _orderItemRep = mock;
         }
 
         [Test]

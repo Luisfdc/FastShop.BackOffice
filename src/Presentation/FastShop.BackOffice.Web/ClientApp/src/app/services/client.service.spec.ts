@@ -1,19 +1,20 @@
 import { TestBed } from '@angular/core/testing';
-
 import { ClientService } from './client.service';
-import { HttpClient, HttpHandler } from '@angular/common/http';
+import { Client } from '../types/client';
+import { Observable } from 'rxjs';
 
 describe('ClientService', () => {
 
 
   let service: ClientService;
-  let handler: HttpHandler;
-  let http: HttpClient;
+  let http: any;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    http = new HttpClient(handler);
-    service = new ClientService(http)
+    http = {
+      get: jasmine.createSpy('get').and.returnValue(Observable.create(Client))
+    };
+    service = new ClientService(http);
   });
 
   it('should be created', () => {

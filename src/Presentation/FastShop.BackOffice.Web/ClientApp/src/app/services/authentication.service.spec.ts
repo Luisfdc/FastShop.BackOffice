@@ -1,16 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 
 import { AuthenticationService } from './authentication.service';
-import { HttpClient, HttpHandler } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 describe('AuthenticationService', () => {
   let service: AuthenticationService;
-  let handler: HttpHandler;
-  let http: HttpClient;
+  let http: any;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    http = new HttpClient(handler);
+    http = {
+      get: jasmine.createSpy('get').and.returnValue(Observable.create({name: "User"}))
+    };
     service = new AuthenticationService(http)
   });
 

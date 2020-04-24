@@ -1,22 +1,21 @@
 import { TestBed } from '@angular/core/testing';
 
 import { OrderService } from './order.service';
-import { HttpClient, HttpHandler } from '@angular/common/http';
 import { Order } from '../types/order';
+import { Observable } from 'rxjs';
 
 describe('OrderService', () => {
   let service: OrderService;
-  let handler: HttpHandler;
-  let http: HttpClient;
-  let order: Order;
+  let http: any;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    http = new HttpClient(handler);
+
+    http = {
+      get: jasmine.createSpy('get').and.returnValue(Observable.create(Order)),
+      post: jasmine.createSpy('post').and.returnValue(Observable.create(1))
+    };
     service = new OrderService(http);
-    order = new Order();
-    order.id = 1;
-    order.status = 1;
   });
 
   it('should be created', () => {

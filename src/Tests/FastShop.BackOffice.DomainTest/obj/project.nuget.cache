@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qc3qnyEFigDjBK+Q+RRJnybrekPGu5uNJAEa8oaHHDFLjFY9PEOQgcjYGYMfjde1+3LM1ZAhb5t8Boh+y4OhPA==",
+  "dgSpecHash": "Fe3C+OzyNDKlHX4J7cAlNmSXU9wX1x90kjF07Q/sF6FVEHp8uIJ3EIAfKQaSATPS9J5dJqWxw6L1IIQ03As39w==",
   "success": true,
   "projectFilePath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Tests\\FastShop.BackOffice.DomainTest\\FastShop.BackOffice.DomainTest.csproj",
   "expectedPackageFiles": [

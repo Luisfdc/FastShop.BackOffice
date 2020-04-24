@@ -1,6 +1,10 @@
+using FastShop.BackOffice.Domain.Entities;
 using FastShop.BackOffice.Repository;
 using FastShop.BackOffice.Repository.Contracts;
+using NSubstitute;
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Tests
 {
@@ -11,7 +15,19 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            _clientRep = new ClientRepository();
+            var mock = Substitute.For<IClientRepository>();
+
+            var clients = new List<Client> {
+                new Client {Id = 1, Name = "Maria", Document = "39681706013"}
+            };
+
+            mock.Get("39681706013")
+                .Returns(clients.FirstOrDefault());
+
+            mock.List()
+                .Returns(clients);
+
+            _clientRep = mock;
         }
 
         [Test]

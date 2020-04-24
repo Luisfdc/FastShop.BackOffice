@@ -3,7 +3,11 @@ using FastShop.BackOffice.Application.Contracts;
 using FastShop.BackOffice.Domain.Entities;
 using FastShop.BackOffice.Domain.Enum;
 using FastShop.BackOffice.Repository;
+using FastShop.BackOffice.Repository.Contracts;
+using NSubstitute;
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Tests
 {
@@ -14,24 +18,42 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            _orderApp = new OrderApplication(new OrderRepository());
+            var mock = Substitute.For<IOrderRepository>();
+
+            var orders = new List<Order> {
+                new Order { Id = 1, ClientId = 1, Status = OrderStatusEnum.Pending  }
+            };
+
+            mock.List(1)
+                .Returns(orders);
+
+            mock.Get(1)
+                .Returns(orders.FirstOrDefault());
+
+            mock.List(0)
+                .Returns(new List<Order>());
+
+            mock.UpdateStatus(new Order { Id = 1, Status = OrderStatusEnum.Pending })
+                .Returns(1);
+
+            _orderApp = new OrderApplication(mock);
         }
 
         [Test]
         public void List_Order_Test()
         {
-            var clients = _orderApp.List(1);
+            var orders = _orderApp.List(1);
 
-            Assert.IsNotNull(clients);
+            Assert.IsNotNull(orders);
         }
 
 
         [Test]
         public void Get_Order_Test()
         {
-            var clients = _orderApp.Get(1);
+            var order = _orderApp.Get(1);
 
-            Assert.IsNotNull(clients);
+            Assert.IsNotNull(order);
         }
 
 
