@@ -58,18 +58,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
+    "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
         "projectName": "FastShop.BackOffice.Repository",
-        "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
+        "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
         "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\obj\\",
+        "outputPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -146,7 +146,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -176,8 +176,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
-                "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj"
+              "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
+                "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj"
               }
             }
           }
@@ -224,7 +224,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

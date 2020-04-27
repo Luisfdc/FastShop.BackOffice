@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\FastShop.BackOffice.Domain\FastShop.BackOffice.Domain.csproj" />
-    <ProjectReference Include="..\..\Ropository\FastShop.BackOffice.Repository\FastShop.BackOffice.Repository.csproj" />
+    <ProjectReference Include="..\..\Repository\FastShop.BackOffice.Repository\FastShop.BackOffice.Repository.csproj" />
   </ItemGroup>
 
 </Project>

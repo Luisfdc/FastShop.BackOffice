@@ -47,7 +47,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Application\FastShop.BackOffice.Application\FastShop.BackOffice.Application.csproj" />
-    <ProjectReference Include="..\..\Ropository\FastShop.BackOffice.Repository\FastShop.BackOffice.Repository.csproj" />
+    <ProjectReference Include="..\..\Repository\FastShop.BackOffice.Repository\FastShop.BackOffice.Repository.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1853,8 +1853,8 @@
     },
     "FastShop.BackOffice.Repository/1.0.0": {
       "type": "project",
-      "path": "../../Ropository/FastShop.BackOffice.Repository/FastShop.BackOffice.Repository.csproj",
-      "msbuildProject": "../../Ropository/FastShop.BackOffice.Repository/FastShop.BackOffice.Repository.csproj"
+      "path": "../../Repository/FastShop.BackOffice.Repository/FastShop.BackOffice.Repository.csproj",
+      "msbuildProject": "../../Repository/FastShop.BackOffice.Repository/FastShop.BackOffice.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1898,8 +1898,8 @@
             "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Domain\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj": {
               "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Domain\\FastShop.BackOffice.Domain\\FastShop.BackOffice.Domain.csproj"
             },
-            "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
-              "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj"
+            "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj": {
+              "projectPath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj"
             }
           }
         }
@@ -1934,7 +1934,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

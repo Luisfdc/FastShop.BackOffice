@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "arT4cc06dRANgdr4+ZDbBmENazDsydWhWRli8KFXqMFGJG19Jb2YaguENOrvbVMP2GSseuI9JglE/eMJj5778g==",
+  "dgSpecHash": "ticrGQ595VfLRQaL27Qs0NcFjDu9aexlPeAUg6w/TNwL8/WjtoAqf4Hbjt7DaZILj1LuS/TkyQO0YDGP6uX+jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Ropository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
+  "projectFilePath": "C:\\Users\\camil\\Google Drive\\TesteFastShop\\FastShop.BackOffice\\src\\Repository\\FastShop.BackOffice.Repository\\FastShop.BackOffice.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\camil\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
