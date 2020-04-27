@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { OrderService } from './order.service';
 import { Order } from '../types/order';
-import { Observable } from 'rxjs';
+import { of } from 'rxjs';
 
 describe('OrderService', () => {
   let service: OrderService;
@@ -16,8 +16,8 @@ describe('OrderService', () => {
     order.status = 1;
 
     http = {
-      get: jasmine.createSpy('get').and.returnValue(Observable.create(Order)),
-      post: jasmine.createSpy('post').and.returnValue(Observable.create(1))
+      get: jasmine.createSpy('get').and.returnValue(of(new Order())),
+      post: jasmine.createSpy('post').and.returnValue(of(1))
     };
     service = new OrderService(http);
   });

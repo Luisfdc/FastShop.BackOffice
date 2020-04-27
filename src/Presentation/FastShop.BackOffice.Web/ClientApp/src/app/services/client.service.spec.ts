@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { ClientService } from './client.service';
 import { Client } from '../types/client';
-import { Observable } from 'rxjs';
+import { of } from 'rxjs';
 
 describe('ClientService', () => {
 
@@ -12,7 +12,7 @@ describe('ClientService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({});
     http = {
-      get: jasmine.createSpy('get').and.returnValue(Observable.create(Client))
+      get: jasmine.createSpy('get').and.returnValue(of(new Client()))
     };
     service = new ClientService(http);
   });
