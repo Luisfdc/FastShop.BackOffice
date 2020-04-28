@@ -10,6 +10,10 @@
 
 **Angular**
 
+>>Navegar até a pasta FastShop.BackOffice.Web/ClientApp e executar o comando npm install 
+
+>>Navegar até a pasta FastShop.BackOffice.Web/ClientApp e executar o comando npm install @angular/cli
+
 >>Navegar até a pasta FastShop.BackOffice.Web/ClientApp e executar o comando ng test
 
 # Execução aplicação
